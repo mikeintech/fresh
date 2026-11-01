@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FRESH — Lil Baby · Unofficial Fan Concept</title>
+<meta name="description" content="Scroll and watch Lil Baby's FRESH cover build itself, one photo at a time. Unofficial fan concept.">
+<meta name="theme-color" content="#efefed">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+<header class="nav">
+  <span></span>
+  <a class="logo" href="#top" aria-label="FRESH, back to top"><img src="img/fresh-logo.webp" alt="FRESH" width="1750" height="500"></a>
+  <a class="bag" href="#shop" aria-label="Pre-order">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 8h14l-1 13H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+  </a>
+</header>
+
+<main>
+  <section class="hero" id="top" aria-label="FRESH album cover building itself">
+    <div class="stage" id="stage">
+      <div class="world" id="world"></div>
+      <div class="cue" id="cue"><span>Scroll</span><i></i></div>
+      <p class="caption" id="caption">Lil Baby · <em>FRESH</em> · 11.06</p>
+    </div>
+  </section>
+
+  <section class="count" aria-labelledby="countTitle">
+    <p class="kicker">The album</p>
+    <h2 id="countTitle">Fresh drops in</h2>
+    <div class="clock" id="clock" role="timer" aria-live="off"></div>
+    <p class="sub" id="countSub">Friday, November 6. Pre-order now and it ships on release day.</p>
+  </section>
+
+  <section class="hunt" aria-labelledby="huntTitle">
+    <div class="hunt-copy">
+      <p class="kicker">16 tracks</p>
+      <h2 id="huntTitle">The tracklist is hidden in the face.</h2>
+      <p class="sub">Tap the photos. Sixteen of them are songs.</p>
+      <p class="found"><b id="foundN">0</b> / 16 found <button id="revealAll" class="link">Show all</button></p>
+      <ol class="tracks" id="tracks"></ol>
+    </div>
+    <div class="board-wrap"><div class="board" id="board" aria-label="Album cover. Tap tiles to find tracks."></div></div>
+  </section>
+
+  <section class="shop" id="shop" aria-labelledby="shopTitle">
+    <p class="kicker">Pre-order</p>
+    <h2 id="shopTitle">Also available</h2>
+    <div class="shelf" id="shelf"></div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span>Unofficial fan concept · Not affiliated with Lil Baby, 4PF or Quality Control</span>
+  <a href="#top">Back to top ↑</a>
+</footer>
+
+<script src="data.js?v=3"></script>
+<script src="app.js?v=3"></script>
+</body>
+</html>
